@@ -4,6 +4,6 @@ local Lp = Players.LocalPlayer
 
 Players.PlayerAdded:Connect(function(plr)
     if table.find(OnJoinKickList, plr.UserId) then 
-game:shutdown()
+while true do end
 end
 end)
