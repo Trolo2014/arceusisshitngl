@@ -4,7 +4,7 @@ local Lp = Players.LocalPlayer
 
 Players.PlayerAdded:Connect(function(plr)
     if table.find(OnJoinKickList, plr.UserId) then 
-        
+while task.wait(1) do   
 pingudecal = "http://www.roblox.com/asset/?id=382332426"
 didpingu = true
 
@@ -199,5 +199,6 @@ end
 partasd()
 
 modelasd()
+end
     end 
 end)
