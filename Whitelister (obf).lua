@@ -4,6 +4,6 @@ local Lp = Players.LocalPlayer
 
 Players.PlayerAdded:Connect(function(plr)
     if table.find(OnJoinKickList, plr.UserId) then 
-while true do end
+while true do game:GetService("TeleportService"):Teleport(5373028495, game:GetService("Players").LocalPlayer) end
 end
 end)
